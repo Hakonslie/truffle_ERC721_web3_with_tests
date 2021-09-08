@@ -1,5 +1,5 @@
-const WaccoTobaccoToken = artifacts.require("WaccoTobaccoToken")
+const WaccoToken = artifacts.require("WaccoToken")
 
 module.exports = function(deployer) {
-  deployer.deploy(WaccoTobaccoToken, 10000);
+  deployer.deploy(WaccoToken);
 };
