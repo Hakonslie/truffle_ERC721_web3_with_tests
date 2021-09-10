@@ -1,5 +1,5 @@
-const WaccoToken = artifacts.require("WaccoToken")
+const Monsters = artifacts.require("Monsters")
 
 module.exports = function(deployer) {
-  deployer.deploy(WaccoToken);
+  deployer.deploy(Monsters);
 };
